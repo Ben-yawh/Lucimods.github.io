@@ -36,9 +36,9 @@ body {
     font-size: 18px;
     color: #ededed;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
     margin-left: 30px;
-    transition: 1s;
+    transition: .3s;
 }
 
 .navbar a:hover,
@@ -70,7 +70,7 @@ body {
 }
 
 .home-content p {
-    font-size: 20px;
+    font-size: 16px;
     margin: 20px 0 40px;
 }
 
@@ -97,6 +97,12 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
     z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.btn-box a:hover {
+    color: #00abf0;
 }
 
 .btn-box a:nth-child(2) {
@@ -104,13 +110,26 @@ body {
     color: #00abf0;
 }
 
+.btn-box a:nth-child(2):hover {
+    color: #081b29;
+}
+
+.btn-box a :nth-child(2):: before {
+    background: #00abf0;
+}
+
 .btn-box a::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
-    background: red;
+    background: #081b29;
     z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
 }
