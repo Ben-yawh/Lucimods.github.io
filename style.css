@@ -387,7 +387,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--main-color);
 }
 
 .footer-text p {
@@ -402,7 +402,7 @@ span {
     align-items: center;
     padding: .8rem;
     background: var(--main-color);
-    border: .2rem solid var(--main-color);
+    border: .2rem solid var(--second-bg-color);
     border-radius: .6rem;
 }
 
