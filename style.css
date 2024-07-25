@@ -32,7 +32,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 20px 120px;
     background: rgba(17, 46, 66, 0.3);
     display: flex;
     justify-content: space-between;
@@ -46,16 +46,18 @@ body {
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 25px;
     color: var(--text-color);
+    text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
-    font-size: 1.7rem;
+    font-size: 18px;
     color: var(--text-color);
+    text-decoration: none;
     font-weight: 500;
-    margin-left: 3.5rem;
+    margin-left: 35px;
     transition: .3s;
 }
 
