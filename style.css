@@ -335,6 +335,16 @@ span {
     position: relative;
     width: 49%;
     margin: .8rem 0;
+
+    background: linear-gradient(to right, #081b29, #112e42);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+}
+
+.contact form .input-box .input-field:hover
+{
+    background-size: 100% 100%;
 }
 
 .contact form .input-box .input-field input,
